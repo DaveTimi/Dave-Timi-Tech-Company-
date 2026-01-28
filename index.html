@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dave Timi | Creative Innovator</title>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #f2f4f8; color: #1a1a1a; }
+    a { text-decoration: none; color: inherit; }
+
+    header {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      background: rgba(255,255,255,0.9);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      padding: 20px 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .logo { font-size: 26px; font-weight: 700; color: #0077ff; }
+
+    nav a {
+      margin-left: 30px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    nav a:hover { color: #0077ff; }
+
+    .hero {
+      min-height: 100vh;
+      padding: 0 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #cce0ff, #ffffff 40%, #e9f2ff);
+    }
+
+    .hero h1 { font-size: 4rem; font-weight: 800; color: #0d1b2a; }
+    .hero p { font-size: 1.3rem; margin-top: 10px; }
+
+    .section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 90px 20px;
+    }
+
+    .section h2 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 40px;
+      color: #0d1b2a;
+    }
+
+    /* ABOUT */
+    .about-text {
+      max-width: 900px;
+      margin: auto;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #333;
+      text-align: center;
+    }
+
+    .leader {
+      margin-top: 40px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    }
+
+    .testimonials {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .testimonial-card {
+      width: 300px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+      border-left: 5px solid #0077ff;
+    }
+
+    footer {
+      background: #0d1b2a;
+      padding: 25px;
+      text-align: center;
+      color: #fff;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    @media (max-width: 600px) {
+      header { padding: 15px 25px; }
+      .logo { font-size: 20px; }
+      nav a { margin-left: 15px; font-size: 14px; }
+      .hero h1 { font-size: 2.3rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Dave Timi</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Creative Innovator</h1>
+    <p>Designing ideas that inspire impact</p>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="section" id="about">
+  <h2>About Dave Timi</h2>
+
+  <p class="about-text">
+    <strong>Dave Timi</strong> is a growing tech and creative innovation company dedicated to
+    building modern digital solutions that blend technology, creativity, and strategy.
+    We help brands, startups, and organizations turn ideas into scalable, impactful
+    digital products.
+    <br><br>
+    Our focus is on solving real-world problems through innovation, delivering user-centered
+    solutions that drive growth, efficiency, and long-term value.
+  </p>
+
+  <div class="leader">
+    <p class="about-text">
+      <strong>David Oluwagbohun</strong> is the Founder and Lead Leader of Dave Timi — a visionary
+      technologist and creative strategist known for strong leadership, innovation,
+      and a commitment to excellence.
+      <br><br>
+      Through clarity of vision and hands-on leadership, David continues to guide Dave Timi’s
+      growth as a trusted and forward-thinking tech brand.
+    </p>
+  </div>
+</section>
+
+<section class="section" id="testimonials">
+  <h2>What People Say</h2>
+  <div class="testimonials">
+    <div class="testimonial-card">
+      <p>“Dave is one of the most inspiring creative minds I’ve worked with.”</p>
+      <span>— Media Partner</span>
+    </div>
+    <div class="testimonial-card">
+      <p>“His vision and leadership elevate every project to a new level.”</p>
+      <span>— Client</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h2>Get In Touch</h2>
+  <p style="text-align:center; margin-bottom:20px;">
+    Want to collaborate or need my services? Reach out!
+  </p>
+  <div style="text-align:center;">
+    <p>📞 <a href="tel:+2349136704492">+234 913 670 4492</a></p>
+    <p>✉️ <a href="mailto:davidoluwagbohun31@gmail.com">davidoluwagbohun31@gmail.com</a></p>
+    <p>📘 <a href="https://www.facebook.com/share/1DbN1XBfdx/" target="_blank">Facebook Profile</a></p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Dave Timi. All Rights Reserved.
+</footer>
+
+</body>
+</html>
